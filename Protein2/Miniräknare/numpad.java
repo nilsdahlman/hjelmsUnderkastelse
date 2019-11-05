@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-/*  w w w. ja  v  a2 s .  c  o  m*/
+
 public class numpad extends Application
 {
 
@@ -29,7 +29,7 @@ public class numpad extends Application
             "1", "2", "3", "+",
             "4", "5", "6", "-",
             "7", "8", "9", "/",
-            " ", "0", " ", "*"
+            "",  "0", "",  "*"
         };
         
         GridPane numPad = new GridPane();
